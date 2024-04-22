@@ -1,0 +1,134 @@
+.skip-to-main-content-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-to-main-content-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+
+/* sets nav up as a flex */
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 10px #cfd8dc;
+    padding: 1rem 0; 
+    background-color: #fff; 
+    border-bottom: 2px solid #000; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+/* takes away the underlining from links in nav bar */
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* makes first two items (shopping icon and cabi resell be on left) */
+.nav-item:nth-child(-n+2) {
+    margin-right: auto;
+    margin-left: 2rem;
+    justify-content: space-between;
+}
+
+/* creates space between shopping bag icon and Cabi Resell */
+.fa fa-shopping-bag {
+    margin-right: 0; 
+    margin-left: 0;
+}
+
+  .homepage-opening {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 10px 20px;
+  }
+
+  body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  main {
+    position: relative;
+  }
+
+  .welcome {
+    position: absolute;
+    background-color: #000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 30px;
+  }
+
+  .welcome h1 {
+    font-size: x-large;
+    padding: 15px;
+  }
+
+  .welcome p {
+    font-size: medium;
+    padding: 15px
+  }
+
+/* set social media icons as flex */
+/* COME BACK - not spaced correctly */
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    column-gap: normal;
+    justify-content: space-evenly;
+    margin: 0px 30px;
+}
+
+.social-icons {
+    font-size: w3-large;
+}
+
+/* shortens the width of the line under the social media icons  */
+hr {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+/* Styles the links at the bottom of the page */
+.additional-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px;
+}
+
+.link a{
+    padding: 10px;
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+.link:hover {
+    text-decoration:underline;
+}
+
+
+
