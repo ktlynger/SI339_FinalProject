@@ -13,28 +13,37 @@
     <a class='skip-to-main-content-link' href = "">Skip to Main Content</a>
     <nav>
         <ul class="nav-list">
-            <li class="nav-item"><i class="fa fa-shopping-bag"></i></li>
             <li class="nav-item"><a href = "homepage.html">Cabi Resell</a></li>
             <li class="nav-item"><a href = "shop.html">Shop</a></li>
-            <li class="nav-item"><a href = "aboutus.html">About Us</a></li>
-            <li class="nav-item"><a href = "cart.html"><i class="fa fa-shopping-cart"></i></a></li>
 
         </ul> 
     </nav>
     </header>
     <main>
-        <div class="homepage-opening">
-            <img src="images/placeholder.png" width="250" alt="ADD LATER">
-            <img src="images/placeholder.png" width="250" alt="ADD LATER">
-            <img src="images/placeholder.png" width="250" alt="ADD LATER">
-        </div>
+        <section aria-label="Photos">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                <ul data-slides>
+                        <li>
+                        <li class="slide" data-active>
+                            <img src="images/carousel-image1.png" width="250px" alt="women in black top and checked skirt">
+                        </li>
+                        <li class="slide">
+                            <img src="images/carousel-image2.png" width="250px" alt="women in green jacket and jeans">
+                        </li>
+                        <li class="slide">
+                            <img src="images/carousel-image3.png" width="250px" alt="women in all red pantsuit">
+                        </li>
+                </ul>
+            </div>
         <div class="welcome">
             <h1>Welcome to Cabi Resale!</h1>
             <p>Missed my local sample sale? Well you can still shop the old collections and enjoy the sample sale deals here!</p>
             <button>Shop</button>
         </div>
         <div>
-            <ul class="footer-social-icons">
+            <ul class="social-icons">
                 <li class="social-icon"><i class="fa fa-facebook"></i></li>
                 <li class="social-icon"><i class="fa fa-instagram"></i></li>
                 <li class="social-icon"><i class="fa fa-pinterest"></i></li>
@@ -49,7 +58,7 @@
                 <li class="link"><a href="https://rachelelyngklip.cabionline.com/terms-conditions/">Terms & Conditions</a></li>
             </ul>
         </div>
-
+        <script src="js/homepage.js"></script>
     </main>
 
 
